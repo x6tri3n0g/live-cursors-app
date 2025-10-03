@@ -4,8 +4,9 @@ Node Web Socket 서버 구현 및 React Client App 구현
 - Web Socket Server로 Live Cursor App 만들기
 
 ## Server
-> [!info]
+> ![info]
 > node 22.13.1
+
 ```bash
 # 패키지 설치
 > npm i
@@ -15,7 +16,8 @@ Node Web Socket 서버 구현 및 React Client App 구현
 ```
 
 ### 설명
-```
+```jsx
+
 const http = require("http");
 const { WebSocketServer } = require("ws");
 const url = require("url");
@@ -88,8 +90,9 @@ server.listen(PORT, () => {
 ```
 
 ## Client
-> [!info]
+> ![info]
 > node 22.13.1
+
 ```
 # 패키지 설치
 > npm i
@@ -99,7 +102,7 @@ server.listen(PORT, () => {
 ```
 
 ### 설명
-```
+```js
   ...
 
   // react-use-websocket의 useWebSocket 사용하여 통신
